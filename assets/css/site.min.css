@@ -2278,5 +2278,10 @@ a:focus{outline:0}
 @media screen and (max-width:767px){.example-responsive{width:100%;overflow-y:hidden;-ms-overflow-style:-ms-autohiding-scrollbar}
 }
 
+
+
 .profile-subject{font-weight: bold}
 .row-50{height: 50px}
+.search-box{width:90%; margin-left:5%;}
+.col-lg-12.col-lg-offset-0.col-md-12.col-md-offset-0.col-sm-12.col-sm-offset-0.col-xs-12{background-color: #ffffff; padding:50px; margin-top: 15px}
+.profile-title{margin-top: -25px; margin-bottom: 50px}
