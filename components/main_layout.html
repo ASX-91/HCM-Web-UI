@@ -7,7 +7,7 @@
   <meta name="description" content="bootstrap admin template">
   <meta name="author" content="">
 
-  <title>HCM | Project 01</title>
+  <title>HCM | Search </title>
 
   <link rel="apple-touch-icon" href="../assets/images/apple-touch-icon.png">
   <link rel="shortcut icon" href="../assets/images/favicon.ico">
@@ -149,7 +149,7 @@
 
 
 
-            <!-- Search -->
+              <!-- Search -->
               <div class="list-group" style="width:90%; margin-left:5%">
               	<form>
             		<div class="input-search input-search-dark">
@@ -158,7 +158,7 @@
             		</div>
           		</form>
               </div>
-			<!-- Enf of Search -->
+			         <!-- End of Search -->
 
             </div>
 
@@ -195,7 +195,8 @@
               </div>
               <!-- End of filter -->
 
-
+              
+              <!-- Sort By -->
               <div class="page-aside-section">
               	<h5 class="page-aside-title">SORT BY</h5>
               		<div class="list-group has-actions">
@@ -225,6 +226,7 @@
               			</div>
               		</div>
               </div>
+              <!-- Rnd of Sort By -->
 
 
             </div>
@@ -251,21 +253,47 @@
         </div>
       </div>
 
-      <!-- Contacts Content -->
+      <!-- Result Area -->
       <div class="page-content">
-      <!-- Panel -->
-      <div class="panel">
-        <div class="panel-body">
-          
-
-          <div class="nav-tabs-horizontal">
-            <div class="tab-content">
-              <div class="tab-pane active" id="all_contacts" role="tabpanel">
             
+                  <!-- List Will Show Here -->
                   <li class="list-group-item">
                     <div class="media">
                       <div class="media-left">
-                        <div class="avatar avatar-away">
+                        <div class="avatar">
+                          <!-- Profile Picture -->
+                          <img src="../assets/portraits/2.jpg" alt="...">
+                        </div>
+                      </div>
+                      <div class="media-body">
+                        <h4 class="media-heading">
+                          Mary Adams
+                          <small>Start Working: 2 years ago</small>
+                        </h4>
+                        <p>
+                          <i class="icon icon-color wb-user" aria-hidden="true"></i>กรรมการผู้จัดการ
+                        </p>
+                        <p>
+                          <i class="icon icon-color wb-mobile" aria-hidden="true"></i> 092-0922721
+                        </p>
+                        <p>
+                          <i class="icon icon-color wb-map" aria-hidden="true"></i>                          63/1 - 8 ราษฎร์อุทิศ วัตเกตุ เมืองเชียงใหม่ เชียงใหม่
+                        </p>
+                      </div>
+                      <div class="media-right">
+                        <button type="button" class="btn btn-outline btn-success btn-sm">View profile</button>
+                      </div>
+                    </div>
+                    <hr>
+                  </li>
+                  <!-- End of List -->
+
+
+                  <li class="list-group-item">
+                    <div class="media">
+                      <div class="media-left">
+                        <!-- "avatar-busy" = red, "avatar-online" = green -->
+                        <div class="avatar avatar-online">
                           <img src="../assets/portraits/2.jpg" alt="...">
                           <i class="avatar avatar-busy"></i>
                         </div>
@@ -294,36 +322,7 @@
                   <li class="list-group-item">
                     <div class="media">
                       <div class="media-left">
-                        <div class="avatar avatar-away">
-                          <img src="../assets/portraits/2.jpg" alt="...">
-                          <i class="avatar avatar-busy"></i>
-                        </div>
-                      </div>
-                      <div class="media-body">
-                        <h4 class="media-heading">
-                          Mary Adams
-                          <small>Start Working: 2 years ago</small>
-                        </h4>
-                        <p>
-                          <i class="icon icon-color wb-user" aria-hidden="true"></i>กรรมการผู้จัดการ
-                        </p>
-                        <p>
-                          <i class="icon icon-color wb-mobile" aria-hidden="true"></i> 092-0922721
-                        </p>
-                        <p>
-                          <i class="icon icon-color wb-map" aria-hidden="true"></i>                          63/1 - 8 ราษฎร์อุทิศ วัตเกตุ เมืองเชียงใหม่ เชียงใหม่
-                        </p>
-                      </div>
-                      <div class="media-right">
-                        <button type="button" class="btn btn-outline btn-success btn-sm">View profile</button>
-                      </div>
-                    </div>
-                    <hr>
-                  </li> 
-                  <li class="list-group-item">
-                    <div class="media">
-                      <div class="media-left">
-                        <div class="avatar avatar-away">
+                        <div class="avatar avatar-busy">
                           <img src="../assets/portraits/2.jpg" alt="...">
                           <i class="avatar avatar-busy"></i>
                         </div>
@@ -804,14 +803,8 @@
                     </li>
                   </ul>
                 </nav>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End Panel -->
-    </div>
-     
+              
+      </div> <!-- End of Result Area -->      
     </div>
 </div>
 
