@@ -2284,4 +2284,5 @@ a:focus{outline:0}
 .row-50{height: 50px}
 .search-box{width:90%; margin-left:5%;}
 .col-lg-12.col-lg-offset-0.col-md-12.col-md-offset-0.col-sm-12.col-sm-offset-0.col-xs-12{background-color: #ffffff; padding:50px; margin-top: 15px}
-.profile-title{margin-top: -25px; margin-bottom: 50px}
+.profile-title{margin-top: 25px; margin-left:25px; margin-bottom: 50px;}
+.margin-top-10{margin-top: 10px}

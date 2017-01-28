@@ -167,13 +167,138 @@
               </div>
                <!-- End of Search -->
             </div>
+  
+
+            <!-- Filter -->
+            <div class="page-aside-section">
+              <h5 class="page-aside-title">FILTER</h5>
+              <div class="panel-group" id="exampleAccordionDefault" aria-multiselectable="true" role="tablist">
+                  
+                  <!-- Gender -->
+                  <div class="panel">
+                    <div class="panel-heading" id="exampleHeadingDefaultOne" role="tab">
+                      <a class="panel-title" data-toggle="collapse" href="#gender" data-parent="#exampleAccordionDefault" aria-expanded="true" aria-controls="gender">
+                      <span class="filter-title" style="font-size: 1.25em">เพศ</span>
+                    </a>
+                    </div>
+                    <div class="panel-collapse collapse in" id="gender" aria-labelledby="exampleHeadingDefaultOne" role="tabpanel" aria-expanded="true">
+                      <div class="panel-body">
+                        <div class="checkbox-custom checkbox-primary">
+                          <input type="checkbox" id="gender1" name="inputRadios">
+                          <label for="gender1">ชาย</label>
+                        </div>
+                        <div class="checkbox-custom checkbox-primary">
+                          <input type="checkbox" id="gender2" name="inputRadios">
+                          <label for="gender2">หญิง</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Workingage -->
+                  <div class="panel">
+                    <div class="panel-heading" id="exampleHeadingDefaultOne" role="tab">
+                      <a class="panel-title" data-toggle="collapse" href="#workingage" data-parent="#exampleAccordionDefault" aria-expanded="true" aria-controls="workingage">
+                      <span class="filter-title" style="font-size: 1.25em">อายุการทำงาน</span>
+                    </a>
+                    </div>
+                    <div class="panel-collapse collapse in" id="workingage" aria-labelledby="exampleHeadingDefaultOne" role="tabpanel" aria-expanded="true">
+                      <div class="panel-body">
+                        <div class="checkbox-custom checkbox-primary">
+                          <input type="checkbox" id="age1" name="inputRadios">
+                          <label for="age1">ต่ำกว่า 1 ปี</label>
+                        </div>
+                        <div class="checkbox-custom checkbox-primary">
+                          <input type="checkbox" id="age2" name="inputRadios">
+                          <label for="age2">1-3 ปี</label>
+                        </div>
+                        <div class="checkbox-custom checkbox-primary">
+                          <input type="checkbox" id="age3" name="inputRadios">
+                          <label for="age3">3-5 ปี</label>
+                        </div>
+                        <div class="checkbox-custom checkbox-primary">
+                          <input type="checkbox" id="age4" name="inputRadios">
+                          <label for="age4">มากกว่า 5 ปี</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Education
+
+                  <div class="panel">
+                    <div class="panel-heading" id="exampleHeadingDefaultOne" role="tab">
+                      <a class="panel-title" data-toggle="collapse" href="#exampleCollapseDefaultOne" data-parent="#exampleAccordionDefault" aria-expanded="true" aria-controls="exampleCollapseDefaultOne">
+                      <span class="filter-title" style="font-size: 1.25em">เพศ</span>
+                    </a>
+                    </div>
+                    <div class="panel-collapse collapse in" id="exampleCollapseDefaultOne" aria-labelledby="exampleHeadingDefaultOne" role="tabpanel" aria-expanded="true">
+                      <div class="panel-body">
+                        <div class="checkbox-custom checkbox-primary">
+                          <input type="checkbox" id="age1" name="inputRadios">
+                          <label for="age1">ต่ำกว่าปริญญาตรี</label>
+                        </div>
+                        <div class="checkbox-custom checkbox-primary">
+                          <input type="checkbox" id="age2" name="inputRadios">
+                          <label for="age2">ปริญญาตรี</label>
+                        </div>
+                        <div class="checkbox-custom checkbox-primary">
+                          <input type="checkbox" id="age3" name="inputRadios">
+                          <label for="age3">ปริญญาโท</label>
+                        </div>
+                        <div class="checkbox-custom checkbox-primary">
+                          <input type="checkbox" id="age4" name="inputRadios">
+                          <label for="age4">ปริญญาเอก</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  -->
+                  
+                  <!-- Salary -->  
+                  <div class="panel">
+                    <div class="panel-heading" id="salary" role="tab">
+                      <a class="panel-title" data-toggle="collapse" href="#salary" data-parent="#exampleAccordionDefault" aria-expanded="true" aria-controls="salary">
+                      <span class="filter-title" style="font-size: 1.25em">เงินเดือน</span>
+                    </a>
+                    </div>
+                    <div class="panel-collapse collapse in" id="salary" aria-labelledby="exampleHeadingDefaultOne" role="tabpanel" aria-expanded="true">
+                      <div class="panel-body">
+                        <div class="checkbox-custom checkbox-primary">
+                          <input type="checkbox" id="age1" name="inputRadios">
+                          <label for="age1">ต่ำกว่า 10,000 บาท</label>
+                        </div>
+                        <div class="checkbox-custom checkbox-primary">
+                          <input type="checkbox" id="age2" name="inputRadios">
+                          <label for="age2">10,001-50,000</label>
+                        </div>
+                        <div class="checkbox-custom checkbox-primary">
+                          <input type="checkbox" id="age3" name="inputRadios">
+                          <label for="age3">50,001-100,000</label>
+                        </div>
+                        <div class="checkbox-custom checkbox-primary">
+                          <input type="checkbox" id="age4" name="inputRadios">
+                          <label for="age4">มากกว่า 100,000</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- End of filter -->
+
 
             <!-- Sort By -->
-            <div class="page-aside-section">
-              <h5 class="page-aside-title">SORT BY</h5>
-                <div class="list-group has-actions">
-                  <div class="list-group-item">
-                    <div class="radio-custom radio-primary">
+            <div class="panel">
+              <div class="panel-heading" id="exampleHeadingDefaultTwo" role="tab">
+                <a class="panel-title collapsed" data-toggle="collapse" href="#department" data-parent="#exampleAccordionDefault" aria-expanded="false" aria-controls="department">
+                      <h5 class="page-aside-title" style="margin-left: -40px; margin-top: -30px; margin-bottom: 0px">SORT BY</h5>
+                </a>
+              </div>
+              <div class="panel-collapse collapse" id="department" aria-labelledby="exampleHeadingDefaultTwo" role="tabpanel" aria-expanded="false">
+                <div class="panel-body">
+                  <div class="radio-custom radio-primary">
                         <input type="radio" id="s1" name="inputRadios">
                         <label for="s1">ฝ่าย</label>
                     </div>
@@ -195,121 +320,10 @@
                         <input type="radio" id="s4" name="inputRadios">
                         <label for="s4">ประเภทพนักงาน</label>
                     </div>
-                  </div>
                 </div>
+              </div>
             </div>
             <!-- End of Sort By -->
-  
-
-            <!-- Filter -->
-            <div class="page-aside-section">
-              <h5 class="page-aside-title">FILTER</h5>
-              <div class="panel-group" id="exampleAccordionDefault" aria-multiselectable="true" role="tablist">
-                  <div class="panel">
-                    <div class="panel-heading" id="exampleHeadingDefaultOne" role="tab">
-                      <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultOne" data-parent="#exampleAccordionDefault" aria-expanded="false" aria-controls="exampleCollapseDefaultOne">
-                      เพศ
-                    </a>
-                    </div>
-                    <div class="panel-collapse collapse" id="exampleCollapseDefaultOne" aria-labelledby="exampleHeadingDefaultOne" role="tabpanel" aria-expanded="false" style="height: 0px;">
-                      <div class="panel-body">
-                        <div class="radio-custom radio-primary">
-                          <input type="radio" id="gender1" name="inputRadios">
-                          <label for="gender1">ชาย</label>
-                        </div>
-                        <div class="radio-custom radio-primary">
-                          <input type="radio" id="gender2" name="inputRadios">
-                          <label for="gender2">หญิง</label>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="panel">
-                    <div class="panel-heading" id="exampleHeadingDefaultTwo" role="tab">
-                      <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultTwo" data-parent="#exampleAccordionDefault" aria-expanded="false" aria-controls="exampleCollapseDefaultTwo">
-                      อายุการทำงาน
-                    </a>
-                    </div>
-                    <div class="panel-collapse collapse" id="exampleCollapseDefaultTwo" aria-labelledby="exampleHeadingDefaultTwo" role="tabpanel" aria-expanded="false">
-                      <div class="panel-body">
-                        <div class="radio-custom radio-primary">
-                          <input type="radio" id="age1" name="inputRadios">
-                          <label for="age1">ต่ำกว่า 1 ปี</label>
-                        </div>
-                        <div class="radio-custom radio-primary">
-                          <input type="radio" id="age2" name="inputRadios">
-                          <label for="age2">1-3 ปี</label>
-                        </div>
-                        <div class="radio-custom radio-primary">
-                          <input type="radio" id="age3" name="inputRadios">
-                          <label for="age3">3-5 ปี</label>
-                        </div>
-                        <div class="radio-custom radio-primary">
-                          <input type="radio" id="age4" name="inputRadios">
-                          <label for="age4">มากกว่า 5 ปี</label>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="panel">
-                    <div class="panel-heading" id="exampleHeadingDefaultThree" role="tab">
-                      <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultThree" data-parent="#exampleAccordionDefault" aria-expanded="false" aria-controls="exampleCollapseDefaultThree">
-                      วุฒิการศึกษา
-                    </a>
-                    </div>
-                    <div class="panel-collapse collapse" id="exampleCollapseDefaultThree" aria-labelledby="exampleHeadingDefaultThree" role="tabpanel" aria-expanded="false">
-                      <div class="panel-body">
-                        <div class="radio-custom radio-primary">
-                          <input type="radio" id="age1" name="inputRadios">
-                          <label for="age1">ต่ำกว่าปริญญาตรี</label>
-                        </div>
-                        <div class="radio-custom radio-primary">
-                          <input type="radio" id="age2" name="inputRadios">
-                          <label for="age2">ปริญญาตรี</label>
-                        </div>
-                        <div class="radio-custom radio-primary">
-                          <input type="radio" id="age3" name="inputRadios">
-                          <label for="age3">ปริญญาโท</label>
-                        </div>
-                        <div class="radio-custom radio-primary">
-                          <input type="radio" id="age4" name="inputRadios">
-                          <label for="age4">ปริญญาเอก</label>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                   <div class="panel">
-                    <div class="panel-heading" id="exampleHeadingDefaultThree" role="tab">
-                      <a class="panel-title collapsed" data-toggle="collapse" href="#exampleCollapseDefaultFour" data-parent="#exampleAccordionDefault" aria-expanded="false" aria-controls="exampleCollapseDefaultFour">
-                      เงินเดือน
-                    </a>
-                    </div>
-                    <div class="panel-collapse collapse" id="exampleCollapseDefaultFour" aria-labelledby="exampleHeadingDefaultThree" role="tabpanel" aria-expanded="false">
-                      <div class="panel-body">
-                        <div class="radio-custom radio-primary">
-                          <input type="radio" id="age1" name="inputRadios">
-                          <label for="age1">ต่ำกว่า 10,000 บาท</label>
-                        </div>
-                        <div class="radio-custom radio-primary">
-                          <input type="radio" id="age2" name="inputRadios">
-                          <label for="age2">10,001-50,000</label>
-                        </div>
-                        <div class="radio-custom radio-primary">
-                          <input type="radio" id="age3" name="inputRadios">
-                          <label for="age3">50,001-100,000</label>
-                        </div>
-                        <div class="radio-custom radio-primary">
-                          <input type="radio" id="age4" name="inputRadios">
-                          <label for="age4">มากกว่า 100,000</label>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-            </div>
-            <!-- End of filter -->
           </div>
         </div>
       </div>
@@ -330,15 +344,28 @@
 
       <!-- Header -->
       <div class="page-header">
-        <h1 class="page-title">Result of "Test"<br><span style="color: #a3afb7;">1-15</span></h1>
-        <div class="page-header-actions">
+        <div class="row">
+          <div class="col-md-6 col-lg-6">
+            <h1 class="page-title">Result of "Test"
+              <br>
+              <span style="color: #a3afb7;">1-15</span>
+            </h1>
+          </div>
+          <div class="col-md-6 col-lg-6" style="text-align: right; padding-right:30px">
+            <button type="button" class="btn btn-outline btn-primary" style="margin-left: 10px">
+              <i class="icon wb-align-justify" style="font-size: 1.25em;"></i>
+            </button>
+            <button type="button" class="btn btn-outline btn-primary" style="margin-left: 10px">
+              <i class="icon wb-list" style="font-size: 1.25em;"></i>
+            </button>
+          </div>
         </div>
       </div>
 
       <!-- Result Area -->
       <div class="page-content">
 
-        <table class="table table-responsive table-stripped">
+        <table class="table table-responsive table-hover">
           <thead>
             <tr>
               <th>ชื่อ-นามสกุล</th>
@@ -360,7 +387,7 @@
               <td>Barcelona Spain test for long text test for long text</td>
               <td>099-9999999</td>
               <td>300,000/week</td>
-              <td><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></td>
+              <td><a href="profile.html"><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></a></td>
             </tr>
             <tr>
               <td>Luis Suarez</td>
@@ -370,7 +397,7 @@
               <td>Barcelona Spain test for long text test for long text</td>
               <td>099-9999999</td>
               <td>300,000/week</td>
-              <td><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></td>
+              <td><a href="profile.html"><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></a></td>
             </tr>
             <tr>
               <td>Luis Suarez</td>
@@ -380,7 +407,7 @@
               <td>Barcelona Spain test for long text test for long text</td>
               <td>099-9999999</td>
               <td>300,000/week</td>
-              <td><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></td>
+              <td><a href="profile.html"><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></a></td>
             </tr>
             <tr>
               <td>Luis Suarez</td>
@@ -390,7 +417,7 @@
               <td>Barcelona Spain test for long text test for long text</td>
               <td>099-9999999</td>
               <td>300,000/week</td>
-              <td><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></td>
+              <td><a href="profile.html"><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></a></td>
             </tr>
             <tr>
               <td>Luis Suarez</td>
@@ -400,7 +427,7 @@
               <td>Barcelona Spain test for long text test for long text</td>
               <td>099-9999999</td>
               <td>300,000/week</td>
-              <td><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></td>
+              <td><a href="profile.html"><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></a></td>
             </tr>
             <tr>
               <td>Luis Suarez</td>
@@ -410,7 +437,7 @@
               <td>Barcelona Spain test for long text test for long text</td>
               <td>099-9999999</td>
               <td>300,000/week</td>
-              <td><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></td>
+              <td><a href="profile.html"><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></a></td>
               </tr>
             <tr>
               <td>Luis Suarez</td>
@@ -420,7 +447,7 @@
               <td>Barcelona Spain test for long text test for long text</td>
               <td>099-9999999</td>
               <td>300,000/week</td>
-              <td><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></td>
+              <td><a href="profile.html"><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></a></td>
             </tr>
             <tr>
               <td>Luis Suarez</td>
@@ -430,7 +457,7 @@
               <td>Barcelona Spain test for long text test for long text</td>
               <td>099-9999999</td>
               <td>300,000/week</td>
-              <td><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></td>
+              <td><a href="profile.html"><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></a></td>
             </tr>
             <tr>
               <td>Luis Suarez</td>
@@ -440,7 +467,7 @@
               <td>Barcelona Spain test for long text test for long text</td>
               <td>099-9999999</td>
               <td>300,000/week</td>
-              <td><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></td>
+              <td><a href="profile.html"><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></a></td>
             </tr>
             <tr>
               <td>Luis Suarez</td>
@@ -450,7 +477,7 @@
               <td>Barcelona Spain test for long text test for long text</td>
               <td>099-9999999</td>
               <td>300,000/week</td>
-              <td><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></td>
+              <td><a href="profile.html"><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></a></td>
             </tr>
             <tr>
               <td>Luis Suarez</td>
@@ -460,7 +487,7 @@
               <td>Barcelona Spain test for long text test for long text</td>
               <td>099-9999999</td>
               <td>300,000/week</td>
-              <td><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></td>
+              <td><a href="profile.html"><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></a></td>
             </tr>
             <tr>
               <td>Luis Suarez</td>
@@ -470,7 +497,7 @@
               <td>Barcelona Spain test for long text test for long text</td>
               <td>099-9999999</td>
               <td>300,000/week</td>
-              <td><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></td>
+              <td><a href="profile.html"><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></a></td>
             </tr>
             <tr>
               <td>Luis Suarez</td>
@@ -480,7 +507,7 @@
               <td>Barcelona Spain test for long text test for long text</td>
               <td>099-9999999</td>
               <td>300,000/week</td>
-              <td><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></td>
+              <td><a href="profile.html"><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></a></td>
             </tr>
             <tr>
               <td>Luis Suarez</td>
@@ -490,7 +517,7 @@
               <td>Barcelona Spain test for long text test for long text</td>
               <td>099-9999999</td>
               <td>300,000/week</td>
-              <td><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></td>
+              <td><a href="profile.html"><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></a></td>
             </tr>
             <tr>
               <td>Luis Suarez</td>
@@ -500,7 +527,7 @@
               <td>Barcelona Spain test for long text test for long text</td>
               <td>099-9999999</td>
               <td>300,000/week</td>
-              <td><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></td>
+              <td><a href="profile.html"><button type="button" class="btn btn-outline btn-success btn-sm">View profile</button></a></td>
             </tr>
           </tbody>
         </table>
