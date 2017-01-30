@@ -52,6 +52,30 @@
   <script>
     Breakpoints();
   </script>
+
+
+<style>
+  .h-500{
+    height: 500px;
+    margin-bottom: 15px
+  }
+  .h-250{
+    height: 235px;
+    margin-bottom: 30px
+  }
+  .content{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    border-radius: 10px;
+    padding: 30px;
+  }
+  .content-padding{
+    padding: 15px
+  }
+</style>
+
+
 </head>
 <body class="app-projects">
   <!--[if lt IE 8]>
@@ -630,30 +654,6 @@
 
 
 
-<!-- แถวแรก -->
-<div class="row">
-    <!-- ฝ่าย -->
-    <div class="col-md-4 col-sm-6"></div>
-    <!-- แผนก -->
-    <div class="col-md-4 col-sm-6"></div>
-    <!-- ประเภทพนักงาน -->
-    <div class="col-lg-4 col-md-4 col-sm-12">
-        <div class="row">
-            <!-- พนักงานประจำ -->
-            <div class="col-md-12 col-sm-6"></div>
-            <!-- พนักงานฝึกหัด -->
-            <div class="col-md-12 col-sm-6"></div>
-        </div>
-    </div>
-</div>
-
-<!-- แถวสอง -->
-<div class="row">
-    <!-- อายุงาน -->
-    <div class="col-md-6 col-sm-6"></div>
-    <!-- การศึกษา -->
-    <div class="col-md-6 col-sm-6"></div>
-</div>
 
 
 
@@ -694,261 +694,55 @@
 
 <!-- Main Page -->
 <div class="page animsition" style="animation-duration: 800ms; opacity: 1;">
-  <div class="page-content container-fluid">
-    <div class="row" data-plugin="matchHeight" data-by-row="true">
-      <div class="row">
-        <div class="col-md-4 col-sm-6">
-          <!-- Panel Traffic -->
-          <div class="widget widget-shadow example-responsive bg-white" id="widgetLinearea">
-            <div class="widget-content padding-30" style="min-width:480px;">
-              <div class="row padding-bottom-20" style="height:calc(100% - 322px);">
-                <div class="col-sm-8 col-xs-6">
-                  <div class="blue-grey-700">YOUR TRAFFIC VIEWS</div>
-                </div>
-                <div class="col-sm-4 col-xs-6">
-                  <div class="row">
-                    <div class="col-xs-6">
-                      <div class="counter counter-md">
-                        <div class="counter-number-group text-nowrap">
-                          <span class="counter-number">76</span>
-                          <span class="counter-number-related">%</span>
-                        </div>
-                        <div class="counter-label blue-grey-400">PC Browser</div>
-                      </div>
-                    </div>
-                    <div class="col-xs-6">
-                      <div class="counter counter-md">
-                        <div class="counter-number-group text-nowrap">
-                          <span class="counter-number">24</span>
-                          <span class="counter-number-related">%</span>
-                        </div>
-                        <div class="counter-label blue-grey-400">Mobile Phone</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="ct-chart margin-bottom-30" style="height:270px;"><svg xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="100%" height="100%" class="ct-chart-line" style="width: 100%; height: 100%;"><g class="ct-grids"><line y1="240" y2="240" x1="40" x2="972" class="ct-grid ct-vertical"></line><line y1="180" y2="180" x1="40" x2="972" class="ct-grid ct-vertical"></line><line y1="120" y2="120" x1="40" x2="972" class="ct-grid ct-vertical"></line><line y1="60" y2="60" x1="40" x2="972" class="ct-grid ct-vertical"></line><line y1="0" y2="0" x1="40" x2="972" class="ct-grid ct-vertical"></line></g><g><g class="ct-series ct-series-a"><path d="M40,240L40,240C65.889,215,143.556,110,195.333,90C247.111,70,298.889,123,350.667,120C402.444,117,454.222,78,506,72C557.778,66,609.556,94,661.333,84C713.111,74,764.889,-14,816.667,12C868.444,38,946.111,202,972,240L972,240Z" class="ct-area"></path></g><g class="ct-series ct-series-b"><path d="M40,240L40,240C65.889,226,143.556,161,195.333,156C247.111,151,298.889,216,350.667,210C402.444,204,454.222,127,506,120C557.778,113,609.556,157,661.333,168C713.111,179,764.889,174,816.667,186C868.444,198,946.111,231,972,240L972,240Z" class="ct-area"></path></g></g><g class="ct-labels"><foreignObject style="overflow: visible;" x="26" y="245" width="155.33333333333334" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 155px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">SUN</span></foreignObject><foreignObject style="overflow: visible;" x="181.33333333333334" y="245" width="155.33333333333334" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 155px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">MON</span></foreignObject><foreignObject style="overflow: visible;" x="336.6666666666667" y="245" width="155.33333333333331" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 155px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">TUE</span></foreignObject><foreignObject style="overflow: visible;" x="492" y="245" width="155.33333333333337" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 155px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">WED</span></foreignObject><foreignObject style="overflow: visible;" x="647.3333333333334" y="245" width="155.33333333333337" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 155px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">THU</span></foreignObject><foreignObject style="overflow: visible;" x="802.6666666666667" y="245" width="155.33333333333326" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 155px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">FRI</span></foreignObject><foreignObject style="overflow: visible;" x="958" y="245" width="30" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 30px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">SAT</span></foreignObject><foreignObject style="overflow: visible;" y="210" x="-10" height="30" width="30"><span class="ct-label ct-vertical ct-start" style="height: 30px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">0</span></foreignObject><foreignObject style="overflow: visible;" y="150" x="-10" height="30" width="30"><span class="ct-label ct-vertical ct-start" style="height: 30px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">1</span></foreignObject><foreignObject style="overflow: visible;" y="90" x="-10" height="30" width="30"><span class="ct-label ct-vertical ct-start" style="height: 30px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">2</span></foreignObject><foreignObject style="overflow: visible;" y="30" x="-10" height="30" width="30"><span class="ct-label ct-vertical ct-start" style="height: 30px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">3</span></foreignObject><foreignObject style="overflow: visible;" y="-30" x="-10" height="30" width="30"><span class="ct-label ct-vertical ct-start" style="height: 30px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">4</span></foreignObject></g></svg></div>
-              <ul class="list-inline text-center margin-bottom-0">
-                <li>
-                  <i class="icon wb-large-point blue-200 margin-right-10" aria-hidden="true"></i>                  PC BROWSER
-                </li>
-                <li class="margin-left-35">
-                  <i class="icon wb-large-point teal-200 margin-right-10" aria-hidden="true"></i>                  MOBILE PHONE
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- End Panel Traffic -->
-        </div>
-
-        <div class="col-md-4 col-sm-6">
-          <!-- Panel Traffic -->
-          <div class="widget widget-shadow example-responsive bg-white" id="widgetLinearea">
-            <div class="widget-content padding-30" style="min-width:480px;">
-              <div class="row padding-bottom-20" style="height:calc(100% - 322px);">
-                <div class="col-sm-8 col-xs-6">
-                  <div class="blue-grey-700">YOUR TRAFFIC VIEWS</div>
-                </div>
-                <div class="col-sm-4 col-xs-6">
-                  <div class="row">
-                    <div class="col-xs-6">
-                      <div class="counter counter-md">
-                        <div class="counter-number-group text-nowrap">
-                          <span class="counter-number">76</span>
-                          <span class="counter-number-related">%</span>
-                        </div>
-                        <div class="counter-label blue-grey-400">PC Browser</div>
-                      </div>
-                    </div>
-                    <div class="col-xs-6">
-                      <div class="counter counter-md">
-                        <div class="counter-number-group text-nowrap">
-                          <span class="counter-number">24</span>
-                          <span class="counter-number-related">%</span>
-                        </div>
-                        <div class="counter-label blue-grey-400">Mobile Phone</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="ct-chart margin-bottom-30" style="height:270px;"><svg xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="100%" height="100%" class="ct-chart-line" style="width: 100%; height: 100%;"><g class="ct-grids"><line y1="240" y2="240" x1="40" x2="972" class="ct-grid ct-vertical"></line><line y1="180" y2="180" x1="40" x2="972" class="ct-grid ct-vertical"></line><line y1="120" y2="120" x1="40" x2="972" class="ct-grid ct-vertical"></line><line y1="60" y2="60" x1="40" x2="972" class="ct-grid ct-vertical"></line><line y1="0" y2="0" x1="40" x2="972" class="ct-grid ct-vertical"></line></g><g><g class="ct-series ct-series-a"><path d="M40,240L40,240C65.889,215,143.556,110,195.333,90C247.111,70,298.889,123,350.667,120C402.444,117,454.222,78,506,72C557.778,66,609.556,94,661.333,84C713.111,74,764.889,-14,816.667,12C868.444,38,946.111,202,972,240L972,240Z" class="ct-area"></path></g><g class="ct-series ct-series-b"><path d="M40,240L40,240C65.889,226,143.556,161,195.333,156C247.111,151,298.889,216,350.667,210C402.444,204,454.222,127,506,120C557.778,113,609.556,157,661.333,168C713.111,179,764.889,174,816.667,186C868.444,198,946.111,231,972,240L972,240Z" class="ct-area"></path></g></g><g class="ct-labels"><foreignObject style="overflow: visible;" x="26" y="245" width="155.33333333333334" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 155px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">SUN</span></foreignObject><foreignObject style="overflow: visible;" x="181.33333333333334" y="245" width="155.33333333333334" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 155px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">MON</span></foreignObject><foreignObject style="overflow: visible;" x="336.6666666666667" y="245" width="155.33333333333331" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 155px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">TUE</span></foreignObject><foreignObject style="overflow: visible;" x="492" y="245" width="155.33333333333337" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 155px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">WED</span></foreignObject><foreignObject style="overflow: visible;" x="647.3333333333334" y="245" width="155.33333333333337" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 155px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">THU</span></foreignObject><foreignObject style="overflow: visible;" x="802.6666666666667" y="245" width="155.33333333333326" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 155px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">FRI</span></foreignObject><foreignObject style="overflow: visible;" x="958" y="245" width="30" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 30px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">SAT</span></foreignObject><foreignObject style="overflow: visible;" y="210" x="-10" height="30" width="30"><span class="ct-label ct-vertical ct-start" style="height: 30px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">0</span></foreignObject><foreignObject style="overflow: visible;" y="150" x="-10" height="30" width="30"><span class="ct-label ct-vertical ct-start" style="height: 30px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">1</span></foreignObject><foreignObject style="overflow: visible;" y="90" x="-10" height="30" width="30"><span class="ct-label ct-vertical ct-start" style="height: 30px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">2</span></foreignObject><foreignObject style="overflow: visible;" y="30" x="-10" height="30" width="30"><span class="ct-label ct-vertical ct-start" style="height: 30px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">3</span></foreignObject><foreignObject style="overflow: visible;" y="-30" x="-10" height="30" width="30"><span class="ct-label ct-vertical ct-start" style="height: 30px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">4</span></foreignObject></g></svg></div>
-              <ul class="list-inline text-center margin-bottom-0">
-                <li>
-                  <i class="icon wb-large-point blue-200 margin-right-10" aria-hidden="true"></i>                  PC BROWSER
-                </li>
-                <li class="margin-left-35">
-                  <i class="icon wb-large-point teal-200 margin-right-10" aria-hidden="true"></i>                  MOBILE PHONE
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- End Panel Traffic -->
-        </div>
-
-        <div class="col-xlg-4 col-md-4 col-sm-12">
-          <div class="row height-full">
-            <div class="col-md-12 col-sm-6" style="height:50%;">
-              <!-- Panel Overall Sales -->
-              <div class="widget widget-shadow bg-blue-600 white">
-                <div class="widget-content padding-30">
-                  <div class="counter counter-lg counter-inverse text-left">
-                    <div class="counter-label margin-bottom-20">
-                      <div>OVERALL SALES</div>
-                      <div>Lorem ipsum dolor sit amet</div>
-                    </div>
-                    <div class="counter-number-group margin-bottom-15">
-                      <span class="counter-number-related">$</span>
-                      <span class="counter-number">14,000</span>
-                    </div>
-                    <div class="counter-label">
-                      <div class="progress progress-xs margin-bottom-10 bg-blue-800">
-                        <div class="progress-bar progress-bar-info bg-white" style="width: 42%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="42" role="progressbar">
-                          <span class="sr-only">42%</span>
-                        </div>
-                      </div>
-                      <div class="counter counter-sm text-left">
-                        <div class="counter-number-group">
-                          <span class="counter-number font-size-14">42%</span>
-                          <span class="counter-number-related font-size-14">HIGHER THAN LAST MONTH</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Panel Overall Sales -->
-            </div>
-
-            <div class="col-md-12 col-sm-6" style="height:50%;">
-              <!-- Panel Today's Sales -->
-              <div class="widget widget-shadow bg-red-600 white">
-                <div class="widget-content padding-30">
-                  <div class="counter counter-lg counter-inverse text-left">
-                    <div class="counter-label margin-bottom-20">
-                      <div>TODAY'S SALES</div>
-                      <div>Lorem ipsum dolor sit amet</div>
-                    </div>
-                    <div class="counter-number-group margin-bottom-10">
-                      <span class="counter-number-related">$</span>
-                      <span class="counter-number">41,160</span>
-                    </div>
-                    <div class="counter-label">
-                      <div class="progress progress-xs margin-bottom-10 bg-red-800">
-                        <div class="progress-bar progress-bar-info bg-white" style="width: 70%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="70" role="progressbar">
-                          <span class="sr-only">70%</span>
-                        </div>
-                      </div>
-                      <div class="counter counter-sm text-left">
-                        <div class="counter-number-group">
-                          <span class="counter-number font-size-14">70%</span>
-                          <span class="counter-number-related font-size-14">HIGHER THAN LAST MONTH</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- End Panel Today's Sales -->
-            </div>
-        </div>
-
-          </div>
-
-          <div class="row">
-              <div class="col-md-6 col-sm-6">
-          <!-- Panel Traffic -->
-          <div class="widget widget-shadow example-responsive bg-white" id="widgetLinearea">
-            <div class="widget-content padding-30" style="min-width:480px;">
-              <div class="row padding-bottom-20" style="height:calc(100% - 322px);">
-                <div class="col-sm-8 col-xs-6">
-                  <div class="blue-grey-700">YOUR TRAFFIC VIEWS</div>
-                </div>
-                <div class="col-sm-4 col-xs-6">
-                  <div class="row">
-                    <div class="col-xs-6">
-                      <div class="counter counter-md">
-                        <div class="counter-number-group text-nowrap">
-                          <span class="counter-number">76</span>
-                          <span class="counter-number-related">%</span>
-                        </div>
-                        <div class="counter-label blue-grey-400">PC Browser</div>
-                      </div>
-                    </div>
-                    <div class="col-xs-6">
-                      <div class="counter counter-md">
-                        <div class="counter-number-group text-nowrap">
-                          <span class="counter-number">24</span>
-                          <span class="counter-number-related">%</span>
-                        </div>
-                        <div class="counter-label blue-grey-400">Mobile Phone</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="ct-chart margin-bottom-30" style="height:270px;"><svg xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="100%" height="100%" class="ct-chart-line" style="width: 100%; height: 100%;"><g class="ct-grids"><line y1="240" y2="240" x1="40" x2="972" class="ct-grid ct-vertical"></line><line y1="180" y2="180" x1="40" x2="972" class="ct-grid ct-vertical"></line><line y1="120" y2="120" x1="40" x2="972" class="ct-grid ct-vertical"></line><line y1="60" y2="60" x1="40" x2="972" class="ct-grid ct-vertical"></line><line y1="0" y2="0" x1="40" x2="972" class="ct-grid ct-vertical"></line></g><g><g class="ct-series ct-series-a"><path d="M40,240L40,240C65.889,215,143.556,110,195.333,90C247.111,70,298.889,123,350.667,120C402.444,117,454.222,78,506,72C557.778,66,609.556,94,661.333,84C713.111,74,764.889,-14,816.667,12C868.444,38,946.111,202,972,240L972,240Z" class="ct-area"></path></g><g class="ct-series ct-series-b"><path d="M40,240L40,240C65.889,226,143.556,161,195.333,156C247.111,151,298.889,216,350.667,210C402.444,204,454.222,127,506,120C557.778,113,609.556,157,661.333,168C713.111,179,764.889,174,816.667,186C868.444,198,946.111,231,972,240L972,240Z" class="ct-area"></path></g></g><g class="ct-labels"><foreignObject style="overflow: visible;" x="26" y="245" width="155.33333333333334" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 155px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">SUN</span></foreignObject><foreignObject style="overflow: visible;" x="181.33333333333334" y="245" width="155.33333333333334" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 155px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">MON</span></foreignObject><foreignObject style="overflow: visible;" x="336.6666666666667" y="245" width="155.33333333333331" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 155px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">TUE</span></foreignObject><foreignObject style="overflow: visible;" x="492" y="245" width="155.33333333333337" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 155px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">WED</span></foreignObject><foreignObject style="overflow: visible;" x="647.3333333333334" y="245" width="155.33333333333337" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 155px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">THU</span></foreignObject><foreignObject style="overflow: visible;" x="802.6666666666667" y="245" width="155.33333333333326" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 155px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">FRI</span></foreignObject><foreignObject style="overflow: visible;" x="958" y="245" width="30" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 30px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">SAT</span></foreignObject><foreignObject style="overflow: visible;" y="210" x="-10" height="30" width="30"><span class="ct-label ct-vertical ct-start" style="height: 30px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">0</span></foreignObject><foreignObject style="overflow: visible;" y="150" x="-10" height="30" width="30"><span class="ct-label ct-vertical ct-start" style="height: 30px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">1</span></foreignObject><foreignObject style="overflow: visible;" y="90" x="-10" height="30" width="30"><span class="ct-label ct-vertical ct-start" style="height: 30px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">2</span></foreignObject><foreignObject style="overflow: visible;" y="30" x="-10" height="30" width="30"><span class="ct-label ct-vertical ct-start" style="height: 30px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">3</span></foreignObject><foreignObject style="overflow: visible;" y="-30" x="-10" height="30" width="30"><span class="ct-label ct-vertical ct-start" style="height: 30px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">4</span></foreignObject></g></svg></div>
-              <ul class="list-inline text-center margin-bottom-0">
-                <li>
-                  <i class="icon wb-large-point blue-200 margin-right-10" aria-hidden="true"></i>                  PC BROWSER
-                </li>
-                <li class="margin-left-35">
-                  <i class="icon wb-large-point teal-200 margin-right-10" aria-hidden="true"></i>                  MOBILE PHONE
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- End Panel Traffic -->
-        </div>
-
-        <div class="col-md-6 col-sm-6">
-          <!-- Panel Traffic -->
-          <div class="widget widget-shadow example-responsive bg-white" id="widgetLinearea">
-            <div class="widget-content padding-30" style="min-width:480px;">
-              <div class="row padding-bottom-20" style="height:calc(100% - 322px);">
-                <div class="col-sm-8 col-xs-6">
-                  <div class="blue-grey-700">YOUR TRAFFIC VIEWS</div>
-                </div>
-                <div class="col-sm-4 col-xs-6">
-                  <div class="row">
-                    <div class="col-xs-6">
-                      <div class="counter counter-md">
-                        <div class="counter-number-group text-nowrap">
-                          <span class="counter-number">76</span>
-                          <span class="counter-number-related">%</span>
-                        </div>
-                        <div class="counter-label blue-grey-400">PC Browser</div>
-                      </div>
-                    </div>
-                    <div class="col-xs-6">
-                      <div class="counter counter-md">
-                        <div class="counter-number-group text-nowrap">
-                          <span class="counter-number">24</span>
-                          <span class="counter-number-related">%</span>
-                        </div>
-                        <div class="counter-label blue-grey-400">Mobile Phone</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="ct-chart margin-bottom-30" style="height:270px;"><svg xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="100%" height="100%" class="ct-chart-line" style="width: 100%; height: 100%;"><g class="ct-grids"><line y1="240" y2="240" x1="40" x2="972" class="ct-grid ct-vertical"></line><line y1="180" y2="180" x1="40" x2="972" class="ct-grid ct-vertical"></line><line y1="120" y2="120" x1="40" x2="972" class="ct-grid ct-vertical"></line><line y1="60" y2="60" x1="40" x2="972" class="ct-grid ct-vertical"></line><line y1="0" y2="0" x1="40" x2="972" class="ct-grid ct-vertical"></line></g><g><g class="ct-series ct-series-a"><path d="M40,240L40,240C65.889,215,143.556,110,195.333,90C247.111,70,298.889,123,350.667,120C402.444,117,454.222,78,506,72C557.778,66,609.556,94,661.333,84C713.111,74,764.889,-14,816.667,12C868.444,38,946.111,202,972,240L972,240Z" class="ct-area"></path></g><g class="ct-series ct-series-b"><path d="M40,240L40,240C65.889,226,143.556,161,195.333,156C247.111,151,298.889,216,350.667,210C402.444,204,454.222,127,506,120C557.778,113,609.556,157,661.333,168C713.111,179,764.889,174,816.667,186C868.444,198,946.111,231,972,240L972,240Z" class="ct-area"></path></g></g><g class="ct-labels"><foreignObject style="overflow: visible;" x="26" y="245" width="155.33333333333334" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 155px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">SUN</span></foreignObject><foreignObject style="overflow: visible;" x="181.33333333333334" y="245" width="155.33333333333334" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 155px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">MON</span></foreignObject><foreignObject style="overflow: visible;" x="336.6666666666667" y="245" width="155.33333333333331" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 155px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">TUE</span></foreignObject><foreignObject style="overflow: visible;" x="492" y="245" width="155.33333333333337" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 155px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">WED</span></foreignObject><foreignObject style="overflow: visible;" x="647.3333333333334" y="245" width="155.33333333333337" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 155px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">THU</span></foreignObject><foreignObject style="overflow: visible;" x="802.6666666666667" y="245" width="155.33333333333326" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 155px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">FRI</span></foreignObject><foreignObject style="overflow: visible;" x="958" y="245" width="30" height="20"><span class="ct-label ct-horizontal ct-end" style="width: 30px; height: 20px" xmlns="http://www.w3.org/2000/xmlns/">SAT</span></foreignObject><foreignObject style="overflow: visible;" y="210" x="-10" height="30" width="30"><span class="ct-label ct-vertical ct-start" style="height: 30px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">0</span></foreignObject><foreignObject style="overflow: visible;" y="150" x="-10" height="30" width="30"><span class="ct-label ct-vertical ct-start" style="height: 30px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">1</span></foreignObject><foreignObject style="overflow: visible;" y="90" x="-10" height="30" width="30"><span class="ct-label ct-vertical ct-start" style="height: 30px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">2</span></foreignObject><foreignObject style="overflow: visible;" y="30" x="-10" height="30" width="30"><span class="ct-label ct-vertical ct-start" style="height: 30px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">3</span></foreignObject><foreignObject style="overflow: visible;" y="-30" x="-10" height="30" width="30"><span class="ct-label ct-vertical ct-start" style="height: 30px; width: 30px" xmlns="http://www.w3.org/2000/xmlns/">4</span></foreignObject></g></svg></div>
-              <ul class="list-inline text-center margin-bottom-0">
-                <li>
-                  <i class="icon wb-large-point blue-200 margin-right-10" aria-hidden="true"></i>                  PC BROWSER
-                </li>
-                <li class="margin-left-35">
-                  <i class="icon wb-large-point teal-200 margin-right-10" aria-hidden="true"></i>                  MOBILE PHONE
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- End Panel Traffic -->
-        </div>
+  <div class="content-padding">
+    <!-- แถวแรก -->
+  <div class="row" style="margin-bottom: 15px">
+      <!-- ฝ่าย -->
+      <div class="col-md-4 col-sm-6 h-500">
+        <div class="content">
+          test
         </div>
       </div>
-    </div>
+      <!-- แผนก -->
+      <div class="col-md-4 col-sm-6 h-500">
+        <div class="content">
+          test
+        </div>
+      </div>
+      <!-- ประเภทพนักงาน -->
+      <div class="col-lg-4 col-md-4 col-sm-12 h-500">
+          <div class="row">
+              <!-- พนักงานประจำ -->
+              <div class="col-md-12 col-sm-6 h-250">
+                <div class="content">
+                  test
+                </div>
+              </div>
+              <!-- พนักงานฝึกหัด -->
+              <div class="col-md-12 col-sm-6 h-250">
+                <div class="content">
+                  test
+                </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- แถวสอง -->
+  <div class="row">
+      <!-- อายุงาน -->
+      <div class="col-md-6 col-sm-6 h-500">
+        <div class="content">
+          test
+        </div>
+      </div>
+      <!-- การศึกษา -->
+     <div class="col-md-6 col-sm-6 h-500">
+        <div class="content">
+         test
+       </div>
+     </div>
+  </div>
   </div>
 </div>
   
