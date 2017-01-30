@@ -2286,3 +2286,15 @@ a:focus{outline:0}
 .col-lg-12.col-lg-offset-0.col-md-12.col-md-offset-0.col-sm-12.col-sm-offset-0.col-xs-12{background-color: #ffffff; padding:50px; margin-top: 15px}
 .profile-title{margin-top: 25px; margin-left:25px; margin-bottom: 50px;}
 .margin-top-10{margin-top: 10px}
+.margin-bottom-15{margin-bottom: 15px;}
+.h-500{height: 500px; margin-bottom: 15px}
+.h-235{height: 235px; margin-bottom: 30px}
+.content{width: 100%; height: 100%; background-color: #ffffff; padding: 10px;}
+.content-padding-15{padding: 15px}
+.dashboard-title{margin-top: 10px; margin-left: 10px}
+.dashboard-title-mini{margin-top: 10px; margin-left: 10px; color: #ffffff}
+.employee-categories1{background-color: #42A5F5;}
+.employee-categories2{background-color: #26A69A;}
+.fontsize-2em{font-size: 2em;}
+.color-white{color: white;}
+.progress-white{background-color: rgba(0,0,0,0.10)}
